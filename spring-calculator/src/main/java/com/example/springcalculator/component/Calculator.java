@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 @RequiredArgsConstructor
 public class Calculator {
 
-    private final ICalculator iCalculator = null;
+    private final ICalculator iCalculator;
 
     public int sum(int x, int y){
         this.iCalculator.init();

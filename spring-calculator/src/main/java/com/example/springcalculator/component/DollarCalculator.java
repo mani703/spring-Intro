@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 public class DollarCalculator implements ICalculator {
 
     private int price = 1;
-    private final MarketApi marketApi = null;
+    private final MarketApi marketApi;
 
     @Override
     public void init(){
