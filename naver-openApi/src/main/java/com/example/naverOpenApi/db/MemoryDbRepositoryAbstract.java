@@ -1,4 +1,4 @@
-package com.example.naveropenApi.db;
+package com.example.naverOpenApi.db;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.example.naveropenApi.wishlist.service;
+package com.example.naverOpenApi.wishlist.service;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

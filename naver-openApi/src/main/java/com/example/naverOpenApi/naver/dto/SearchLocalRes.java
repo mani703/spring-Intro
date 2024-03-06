@@ -1,4 +1,4 @@
-package com.example.naveropenApi.naver.dto;
+package com.example.naverOpenApi.naver.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

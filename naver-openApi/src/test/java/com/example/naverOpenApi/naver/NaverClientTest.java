@@ -1,7 +1,7 @@
-package com.example.naveropenApi.naver;
+package com.example.naverOpenApi.naver;
 
-import com.example.naveropenApi.naver.dto.SearchImageReq;
-import com.example.naveropenApi.naver.dto.SearchLocalReq;
+import com.example.naverOpenApi.naver.dto.SearchImageReq;
+import com.example.naverOpenApi.naver.dto.SearchLocalReq;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

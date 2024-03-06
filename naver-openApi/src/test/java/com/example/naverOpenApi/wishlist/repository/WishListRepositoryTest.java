@@ -1,6 +1,6 @@
-package com.example.naveropenApi.wishlist.repository;
+package com.example.naverOpenApi.wishlist.repository;
 
-import com.example.naveropenApi.wishlist.entity.WishListEntity;
+import com.example.naverOpenApi.wishlist.entity.WishListEntity;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,7 +17,7 @@ public class WishListRepositoryTest {
         wishList.setTitle("title");
         wishList.setCategory("category");
         wishList.setAddress("address");
-        wishList.setReadAddress("readAddress");
+        wishList.setRoadAddress("readAddress");
         wishList.setHomePageLink("");
         wishList.setImageLink("");
         wishList.setVisit(false);

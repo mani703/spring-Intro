@@ -1,9 +1,9 @@
-package com.example.naveropenApi.naver;
+package com.example.naverOpenApi.naver;
 
-import com.example.naveropenApi.naver.dto.SearchImageReq;
-import com.example.naveropenApi.naver.dto.SearchImageRes;
-import com.example.naveropenApi.naver.dto.SearchLocalReq;
-import com.example.naveropenApi.naver.dto.SearchLocalRes;
+import com.example.naverOpenApi.naver.dto.SearchImageReq;
+import com.example.naverOpenApi.naver.dto.SearchImageRes;
+import com.example.naverOpenApi.naver.dto.SearchLocalReq;
+import com.example.naverOpenApi.naver.dto.SearchLocalRes;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.HttpEntity;

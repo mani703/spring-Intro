@@ -1,4 +1,4 @@
-package com.example.naveropenApi.db;
+package com.example.naverOpenApi.db;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -8,5 +8,5 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Data
 public class MemoryDbEntity {
-    protected int index;
+    protected Integer index;
 }
