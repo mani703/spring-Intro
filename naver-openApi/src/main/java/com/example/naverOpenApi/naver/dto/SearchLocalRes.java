@@ -17,11 +17,12 @@ public class SearchLocalRes {
     private int display;
     private List<SearchLocalItem> items;
 
+
+
     @Data
     @NoArgsConstructor
     @AllArgsConstructor
     public static class SearchLocalItem {
-
         private String title;
         private String link;
         private String description;
@@ -31,6 +32,5 @@ public class SearchLocalRes {
         private String roadAddress;
         private int mapx;
         private int mapy;
-
     }
 }

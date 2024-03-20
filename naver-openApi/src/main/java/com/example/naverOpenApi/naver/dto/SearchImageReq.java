@@ -24,12 +24,11 @@ public class SearchImageReq {
     public MultiValueMap<String, String> toMultiValueMap(){
         var map = new LinkedMultiValueMap<String, String>();
 
-        map.add("query", query);
-        map.add("display", String.valueOf(display));
+        map.add("query",query);
+        map.add("display",String.valueOf(display));
         map.add("start", String.valueOf(start));
-        map.add("sort", sort);
-        map.add("filter", filter);
-
+        map.add("sort",sort);
+        map.add("filter",filter);
         return map;
     }
 }

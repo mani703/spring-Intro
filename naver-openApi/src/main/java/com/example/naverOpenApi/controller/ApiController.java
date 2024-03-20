@@ -18,14 +18,14 @@ public class ApiController {
     private final WishListService wishListService;
 
     @GetMapping("/search")
-    public WishListDto search(@RequestParam String query) {
+    public WishListDto search(@RequestParam String query){
         return wishListService.search(query);
     }
 
     @PostMapping("")
     public WishListDto add(@RequestBody WishListDto wishListDto){
-      log.info("{}", wishListDto);
-      return wishListService.add(wishListDto);
+        log.info("{}", wishListDto);
+        return wishListService.add(wishListDto);
     }
 
     @GetMapping("/all")
@@ -39,7 +39,8 @@ public class ApiController {
     }
 
     @PostMapping("/{index}")
-    public void  addVisit(@PathVariable int index){
+    public void addVisit(@PathVariable int index){
         wishListService.addVisit(index);
     }
+
 }

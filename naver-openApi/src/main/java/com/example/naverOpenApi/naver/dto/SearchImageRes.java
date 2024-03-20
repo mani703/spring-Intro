@@ -17,16 +17,16 @@ public class SearchImageRes {
     private int display;
     private List<SearchImageItem> items;
 
+
+
     @Data
     @NoArgsConstructor
     @AllArgsConstructor
     public static class SearchImageItem {
-
         private String title;
         private String link;
         private String thumbnail;
         private String sizeheight;
         private String sizewidth;
-
     }
 }
